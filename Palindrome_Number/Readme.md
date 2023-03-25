@@ -28,7 +28,7 @@ Here's the general algorithm:
 - Space complexity: O(1)
 
 # Code
-```
+```java
 class Solution {
     public boolean isPalindrome(int x) {
         // check if x is negative
