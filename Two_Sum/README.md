@@ -11,14 +11,12 @@ The approach used in this solution is to use a HashMap to keep track of the numb
 By using a HashMap, we can lookup the complement of a number in constant time. Therefore, the time complexity of this solution is O(n), where n is the size of the input array. Additionally, we only use extra space to store the numbers and their indices in the HashMap, so the space complexity is also O(n).
 
 # Complexity
-- Time complexity:
-$$O(n)$$
+- Time complexity: O(n)
 
-- Space complexity:
-$$O(n)$$
+- Space complexity: O(n)
 
 # Code
-```
+```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
